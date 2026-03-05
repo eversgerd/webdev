@@ -24,29 +24,27 @@
   <li><label for="form-address">Address:</label> <input type="text" name="address" id="form-address"></li>
   <li><label for="form-phone">Telephone Number:</label> <input type="text" name="phone" id="form-phone"></li>
   <li><label for="form-email">Email:</label> <input type="text" name="email" id="form-email"></li>
-  <li><label for="form-delivery">Delivery instructions:</label> <input type="text" name="delivery" id="form-delivery"></li>
   <li>Delivery instructions:<br>
-  <textarea name="instructions" rows="4" cols="60" maxlength="400" placeholder="No more than 400 characters long"></textarea></li>
+  <textarea name="instructions" rows="4" cols="60" maxlength="400" id="form-story"placeholder="No more than 400 characters long"></textarea></li>
 </ul>
 
 <h2>Design Your Dream Pizza:</h2>
 
 <fieldset>
-
-<legend>Pizza specs</legend>
+  <legend>Pizza specs</legend>
 
 <p>Crust <em>(Choose one)</em>:</p>
 <ul>
   <li><label><input type="radio" name="crust" value="white">Classic white</label></li>
   <li><label><input type="radio" name="crust" value="multigrain">Multigrain</label></li>
-  <li><label><input type="radio" name="crust" value="stuffed_crust">Cheese-stuffed crust</label></li>
-  <li><label><input type="radio" name="crust" value="gluten_free">Gluten-free</label></li>
+  <li><label><input type="radio" name="crust" value="cheesecrust">Cheese-stuffed crust</label></li>
+  <li><label><input type="radio" name="crust" value="glutenfree">Gluten-free</label></li>
 </ul>
 
 <p>Toppings <em>(Choose as many as you want)</em>:</p>
 <ul>
-  <li><label><input type="checkbox" name="toppings[]" value="red sauce" checked>Red sauce</label></li>
-  <li><label><input type="checkbox" name="toppings[]" value="white sauce" checked>White sauce</label></li>
+  <li><label><input type="checkbox" name="toppings[]" value="redsauce" checked>Red sauce</label></li>
+  <li><label><input type="checkbox" name="toppings[]" value="whitesauce" checked>White sauce</label></li>
   <li><label><input type="checkbox" name="toppings[]" value="mozzarella" checked>Mozzarella cheese</label></li>
   <li><label><input type="checkbox" name="toppings[]" value="pepperoni" checked>Pepperoni</label></li>
   <li><label><input type="checkbox" name="toppings[]" value="mushrooms" checked>Mushrooms</label></li>
