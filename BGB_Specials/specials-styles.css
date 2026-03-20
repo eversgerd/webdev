@@ -158,7 +158,7 @@ td:not(.day) {
 
 /* Star icon before every list item */
 li::before {
-  content: "★";
+  content: url(star-icon-1.png);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -173,7 +173,7 @@ li::before {
 
 /* Fan Favorite label after .fave items */
 li.fave::after {
-  content: " (Fan Favorite)";
+  content: "(Fan Favorite)";
   color: darkolivegreen;
 }
 
