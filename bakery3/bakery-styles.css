@@ -49,6 +49,10 @@ nav ul li {
   text-transform: uppercase;
   letter-spacing: .2em;
   margin: 0;
+}
+
+nav ul {
+  margin: 0;
   padding: 0;
   list-style-type: none;
   display:flex;
