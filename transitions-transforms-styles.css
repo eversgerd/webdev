@@ -63,11 +63,11 @@
     /* added an outline for focus state to show a bright yellow border on the "clicked" button */
 
     .card:hover {
-      transform: rotate(5deg) scale(1.05);
+      transform: rotate(0deg) scale(0.5);
       transition: transform 0.3s ease;
     }
 
-    /* added a slight rotation and scaled up effect for the card on hover to make it feel more interactive. */
+    /* added a shrinking effect to the card on hover to exxagerate the active effects */
 
     .card:active {
       outline: 2px solid #a82121;
@@ -76,3 +76,4 @@
     }
 
     /* made the card do a full 360 and expand with an added red outline when clicked to add a dramatic effect to the click. */
+
