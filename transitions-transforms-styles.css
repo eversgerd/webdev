@@ -1,0 +1,78 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 1em 2em;
+      margin: 1em;
+      background-color: #9dc3e6;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+      padding: 1em;
+      width: 200px;
+      margin: 1em;
+      text-align: center;
+      display: inline-block;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    /* ✨ Add your transition and transform effects below this line ✨ */
+    .button:hover {
+      background-color: #080f08;
+      transform: scale(1.9);
+      transition: transform 0.4s ease, background-color 0.1s;
+    }
+
+    /* added a hover state that scales the button up and changes the background color to a darker green. */
+
+    .button:active {
+      background-color: #99228f;
+      transform: scale(0.9);
+      transition: transform 0.1s ease, background-color 0.1s;
+    }
+
+    /* added a focus state that changes the "clicking" state to be visible with a bright pink background. */
+
+    .button:focus {
+      outline: 2px solid #d1dc6c;
+      transform: scale(1.1);
+      transition: transform 0.2s ease, outline 0.2s;
+    }
+    /* added an outline for focus state to show a bright yellow border on the "clicked" button */
+
+    .card:hover {
+      transform: rotate(5deg) scale(1.05);
+      transition: transform 0.3s ease;
+    }
+
+    /* added a slight rotation and scaled up effect for the card on hover to make it feel more interactive. */
+
+    .card:active {
+      outline: 2px solid #a82121;
+      transform: rotate(-360deg) scale(1.2);
+      transition: transform 0.2s ease;
+    }
+
+    /* made the card do a full 360 and expand with an added red outline when clicked to add a dramatic effect to the click. */
